@@ -5,7 +5,9 @@
 input[type="text"], input[type="password"], input[type="email"]{
     @apply w-full border my-1 py-2 px-3 rounded-2xl;
 }
-
+input[type="password"] {
+    margin-bottom: 1rem; /* Adjust the value as needed */
+}
 button{
     @apply bg-gray-300;
 }
@@ -13,4 +15,38 @@ button{
 button.primary{
     background-color: #C14A09;
     @apply bg-primary p-2 w-full text-white rounded-2xl;
+
+}
+
+body {
+    font-family: "Calibri";
+}
+
+ul {
+    font-size: 20px;
+}
+
+/* SubjectPage.css */
+.header {
+  background-color: purple;
+}
+
+.create-button {
+  background-color: black;
+}
+
+.subject-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.subject-table th,
+.subject-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.subject-table th {
+  background-color: #f2f2f2;
 }
